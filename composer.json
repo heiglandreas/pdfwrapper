@@ -1,0 +1,26 @@
+{
+    "name": "org_heigl/pdfwrapper",
+    "description": "Wrapper-classes for PDF-Generation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Heigl",
+            "email": "andreas@heigl.org"
+        }
+    ],
+    "require": {},
+    "suggest" : {
+        "PDFlib" : "For usage of the PdfLib-Wrapper you'll need to install the PDFlib-extension from http://pdflib.com"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Org_Heigl\\PdfWrapper\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Org_Heigl\\PdfWrapperTest\\" : "tests/"
+        }
+    }
+}
