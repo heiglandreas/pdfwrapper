@@ -9,7 +9,7 @@
             "email": "andreas@heigl.org"
         }
     ],
-    "require": {
+    "require-dev": {
         "phpunit/phpunit": "^6.0"
     },
     "suggest" : {
