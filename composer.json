@@ -9,7 +9,9 @@
             "email": "andreas@heigl.org"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    },
     "suggest" : {
         "PDFlib" : "For usage of the PdfLib-Wrapper you'll need to install the PDFlib-extension from http://pdflib.com"
     },
