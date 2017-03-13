@@ -27,7 +27,7 @@
  * @link      http://github.com/heiglandreas/org.heigl.PdfWrapper
  */
 
-namespace Org_Heigl\PwdWrapper;
+namespace Org_Heigl\PdfWrapper;
 
 interface PdfWrapperInterface
 {
